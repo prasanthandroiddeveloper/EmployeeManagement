@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.empmgmnt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Employee.EmployeeDetailsActivity"></activity>
+        <activity android:name=".Employee.EmployeeListActivity" />
+        <activity android:name=".AboutCompanyActivity" />
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".Registration.SignUpActivity" />
+        <activity
+            android:name=".Registration.MainActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

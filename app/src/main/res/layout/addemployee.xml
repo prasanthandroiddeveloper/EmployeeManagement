@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/empidET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee ID"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/empnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Name"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/empdesgET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Designation"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/empemailidET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Emailid"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/empcntcnoET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Contact No"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/empaddrsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Address"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/emplocaET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Location"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/labelTV"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Select Department"
+            android:gravity="center"/>
+
+
+        <Spinner
+            android:id="@+id/empdepSPNR"
+            android:layout_width="match_parent"
+          android:layout_toRightOf="@id/labelTV"
+            android:layout_height="50dp">
+
+        </Spinner>
+
+    </RelativeLayout>
+
+</LinearLayout>
